@@ -1,9 +1,9 @@
-- [![Starts](https://img.shields.io/github/stars/miladimos/package-skeleton?style=flat&logo=github)](https://github.com/miladimos/package-skeleton/forks)
-- [![Forks](https://img.shields.io/github/forks/miladimos/package-skeleton?style=flat&logo=github)](https://github.com/miladimos/package-skeleton/stargazers)
-  [![Total Downloads](https://img.shields.io/packagist/dt/miladimos/package-skeleton.svg?style=flat-square)](https://packagist.org/packages/miladimos/package-skeleton)
+- [![Starts](https://img.shields.io/github/stars/laravelir/smsir?style=flat&logo=github)](https://github.com/laravelir/smsir/forks)
+- [![Forks](https://img.shields.io/github/forks/laravelir/smsir?style=flat&logo=github)](https://github.com/laravelir/smsir/stargazers)
+  [![Total Downloads](https://img.shields.io/packagist/dt/laravelir/smsir.svg?style=flat-square)](https://packagist.org/packages/laravelir/smsir)
 
 
-# vendor/package
+# laravelir/smsir
 
 A package for fun
 
@@ -12,19 +12,19 @@ A package for fun
 1. Run the command below to add this package:
 
 ```
-composer require vendor/package
+composer require laravelir/smsir
 ```
 
 2. Open your config/app.php and add the following to the providers array:
 
 ```php
-Vendor\Package\Providers\PackageServiceProvider::class,
+Laravelir\SMSIR\Providers\SMSIRServiceProvider::class,
 ```
 
 1. Run the command below to install the package:
 
 ```
-php artisan package:install
+php artisan smsir:install
 ```
 
 
