@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Laravelir\SMSIR\Console\Commands\InstallSMSIRCommand;
+use Laravelir\SMSIR\Console\Commands\InstallPackageCommand;
 use Laravelir\SMSIR\Facades\SMSIR;
 
 class SMSIRServiceProvider extends ServiceProvider
@@ -43,7 +43,7 @@ class SMSIRServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->commands([
-                InstallSMSIRCommand::class,
+                InstallPackageCommand::class,
             ]);
         }
     }

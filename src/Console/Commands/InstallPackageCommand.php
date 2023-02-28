@@ -5,7 +5,7 @@ namespace Laravelir\SMSIR\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 
-class InstallSMSIRCommand extends Command
+class InstallPackageCommand extends Command
 {
     protected $signature = 'smsir:install';
 
