@@ -1,7 +1,7 @@
 {
     "name": "laravelir/smsir",
-    "description": "test description",
-    "homepage": "https://github.com/miladimos/smsir",
+    "description": "ir sms services package",
+    "homepage": "https://github.com/laravelir/smsir",
     "type": "library",
     "version": "0.1.0",
     "keywords": [
@@ -10,7 +10,9 @@
         "laravel support",
         "lumen packages",
         "laravel packages",
-        "lumen support"
+        "lumen support",
+        "laravel sms",
+        "laravelir sms"
     ],
     "authors": [
         {
@@ -45,9 +47,6 @@
     },
     "require": {
         "php": ">=7.4|^8.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.4"
     },
     "minimum-stability": "stable",
     "license": "MIT"

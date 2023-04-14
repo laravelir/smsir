@@ -5,7 +5,7 @@
 
 # laravelir/smsir
 
-A package for fun
+ir sms services
 
 ### Installation
 
@@ -28,24 +28,13 @@ php artisan smsir:install
 ```
 
 
-## Testing
-
-```bash
-composer test
-```
-
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
-- [All Contributors](../../contributors)
+- [miladimos](https://github.com/miladimos)
 
 ## License
 
